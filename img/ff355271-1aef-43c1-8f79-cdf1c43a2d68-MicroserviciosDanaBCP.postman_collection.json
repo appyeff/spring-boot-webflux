@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "1ad3dc57-1e30-4af5-abae-2dd0b90cbeda",
+		"name": "Microservicios Dana BCP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Producer documento",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "cltId",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "idTrx",
+						"value": "minim",
+						"type": "text"
+					},
+					{
+						"key": "nombreAplicacion",
+						"value": "minim",
+						"type": "text"
+					},
+					{
+						"key": "procesoNegocio",
+						"value": "minim",
+						"type": "text"
+					},
+					{
+						"key": "usuarioAplicacion",
+						"value": "minim",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "json",
+							"value": "{\n  \"DESA_EMISION_PGA_TIPODOC\": \"DNI\",\n  \"DESA_EMISION_PGA_USO\": \"\",\n  \"DESA_EMISION_PGA_FECINIVIG\": \"2019-01-06\",\n  \"DESA_EMISION_PGA_FECFINVIG\": \"2020-01-06\",\n  \"DESA_EMISION_PGA_FECINITRANS\": \"\",\n  \"DESA_EMISION_PGA_CLASE\": \"\",\n  \"DESA_EMISION_PGA_NUMCHASIS\": \"\",\n  \"DESA_EMISION_PGA_MARCA\": \"X\",\n  \"DESA_EMISION_PGA_NUMMOTOR\": \"\",\n  \"DESA_EMISION_PGA_NUMPLACA\": \"X\",\n  \"DESA_EMISION_PGA_NUMDOC\": \"10000009\",\n  \"DESA_EMISION_PGA_NACIONALIDAD\": \"\",\n  \"DESA_EMISION_PGA_PRIMA\": \"2713\",\n  \"DESA_EMISION_PGA_NOMBRE\": \"MIAQA COLUCCI RIVALDI\",\n  \"DESA_EMISION_PGA_MODELO\": \"X\",\n  \"DESA_EMISION_PGA_TIPO_ENVIO\": \"\",\n  \"DESA_EMISION_PGA_CELULAR\": \"\",\n  \"DESA_EMISION_PGA_CORR_SEG_DES\": \"\",\n  \"DESA_EMISION_PGA_NOMBRES\": \"MIAQA\",\n  \"DESA_EMISION_PGA_HORA_EMISION\": \"\",\n  \"DESA_EMISION_PGA_CANAL_AGENTE\": \"\",\n  \"DESA_EMISION_PGA_CORREDOR_SEGUROS\": \"\",\n  \"DESA_EMISION_PGA_PESOCORREO\": \"\",\n  \"DESA_EMISION_PGA_APEPATASEG\": \"COLUCCI\",\n  \"DESA_EMISION_PGA_COMU_CORR\": \"\",\n  \"DESA_EMISION_PGA_EMAIL\": \"j.quezada.vergaray@accenture.com\",\n  \"DESA_EMISION_PGA_NOMAPEAGTE\": \"S/I LIMA 1  \",\n  \"DESA_EMISION_PGA_FECRECEPCLI\": \"\",\n  \"DESA_EMISION_PGA_APEMATASEG\": \"RIVALDI\",\n  \"DESA_EMISION_PGA_EMAILASEG\": \"j.quezada.vergaray@accenture.com\",\n  \"DESA_EMISION_PGA_FECENVIOCLI\": \"\",\n  \"DESA_EMISION_PGA_NOMASEG\": \"MIAQA\",\n  \"DESA_EMISION_PGA_APELLIDOS\": \"COLUCCI RIVALDI\",\n  \"DESA_EMISION_PGA_CODPRODSBS\": \"AE0446420003\",\n  \"DESA_EMISION_PGA_FORMACOMRCL\": \"4\",\n  \"DESA_EMISION_PGA_CORR_SEG\": \"\",\n  \"DESA_EMISION_PGA_CODRIECONTAB\": \"64\",\n  \"DESA_EMISION_PGA_NUMASEG\": \"1\",\n  \"DESA_EMISION_PGA_NUMDOCIDASEG\": \"10000009\",\n  \"DESA_EMISION_PGA_EMAILINTER\": \"X\",\n  \"DESA_EMISION_PGA_NOMPLANT\": \"Auto Modular END\",\n  \"DESA_EMISION_PGA_CODPROD\": \"MSLD\",\n  \"DESA_EMISION_PGA_DIRECCIONES\": \"\",\n  \"DESA_EMISION_PGA_TLFNOASEG\": \"909088556\",\n  \"DESA_EMISION_PGA_NUMASIENTOS\": \"\",\n  \"DESA_EMISION_PGA_ADJUNTO_3\": \"\",\n  \"DESA_EMISION_PGA_ADJUNTO_1\": \"s3://WS/2019/7/6a3140405d7e270048c5821274daf211\",\n  \"DESA_EMISION_PGA_TRANSAC\": \"Endoso\",\n  \"DESA_EMISION_PGA_ADJUNTO_2\": \"\",\n  \"DESA_EMISION_PGA_EMAILASESOR\": \"X\",\n  \"DESA_EMISION_PGA_NOMAPEVEN\": \"OSCAR CHAVEZ SANCHEZ\",\n  \"DESA_EMISION_PGA_TIPODOCIDASEG\": \"DNI\",\n  \"DESA_EMISION_PGA_CONSENTIMIENTO\": \"1\",\n  \"DESA_EMISION_PGA_NOMBRE_PRODUCTO\": \"AUTOEnlatado\",\n  \"DESA_EMISION_PGA_FECHA_EMISION\": \"2031-10-11 00:00:00.0\",\n  \"DESA_EMISION_PGA_NUMPOL\": \"4916122\",\n  \"DESA_EMISION_PGA_NUMREG\": \"10040600\",\n  \"DESA_EMISION_PGA_CODORGNDOC\": \"GW\",\n  \"DESA_EMISION_PGA_STSRECEPT\": \"\",\n  \"DESA_EMISION_PGA_DESCMOTRZDO\": \"\",\n  \"DESA_EMISION_PGA_NUMTRANSAC\": \"17077977\",\n  \"DESA_EMISION_PGA_RUTADOC\": \"POL_4916122_EMISION_17077977_AccountHolder\",\n  \"DESA_EMISION_PGA_FECFINCONTROL\": \"\",\n  \"DESA_EMISION_PGA_COBERTURAS_SERVICIOS\": \"\",\n  \"DESA_EMISION_PGA_INSPECT_GPS_BODY\": \"\",\n  \"DESA_EMISION_PGA_ANIO_VEHICULO\": \"\",\n  \"DESA_EMISION_PGA_INSPECT_GPS_FOOTNOTES\": \"\",\n  \"DESA_EMISION_PGA_AFILIACION_AUTO_DEBITO\": \"\"\n}",
+							"type": "text"
+						},
+						{
+							"key": "xml",
+							"type": "file",
+							"src": "/home/inetum/OneDrive/Projects/BCP-Bana/data-producer-document/books.xml"
+						},
+						{
+							"key": "",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:9091/ms-ne-producer-documento-link-dana-pga/v1/conversation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"ms-ne-producer-documento-link-dana-pga",
+						"v1",
+						"conversation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Producer documento desa",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "cltId",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "idTrx",
+						"value": "minim",
+						"type": "text"
+					},
+					{
+						"key": "nombreAplicacion",
+						"value": "minim",
+						"type": "text"
+					},
+					{
+						"key": "procesoNegocio",
+						"value": "minim",
+						"type": "text"
+					},
+					{
+						"key": "usuarioAplicacion",
+						"value": "minim",
+						"type": "text"
+					},
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "2e7f7c92ca33482d81f4adae2aee7d48",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "json",
+							"value": "{\n  \"DESA_EMISION_PGA_TIPODOC\": \"DNI\",\n  \"DESA_EMISION_PGA_USO\": \"\",\n  \"DESA_EMISION_PGA_FECINIVIG\": \"2019-01-06\",\n  \"DESA_EMISION_PGA_FECFINVIG\": \"2020-01-06\",\n  \"DESA_EMISION_PGA_FECINITRANS\": \"\",\n  \"DESA_EMISION_PGA_CLASE\": \"\",\n  \"DESA_EMISION_PGA_NUMCHASIS\": \"\",\n  \"DESA_EMISION_PGA_MARCA\": \"X\",\n  \"DESA_EMISION_PGA_NUMMOTOR\": \"\",\n  \"DESA_EMISION_PGA_NUMPLACA\": \"X\",\n  \"DESA_EMISION_PGA_NUMDOC\": \"10000009\",\n  \"DESA_EMISION_PGA_NACIONALIDAD\": \"\",\n  \"DESA_EMISION_PGA_PRIMA\": \"2713\",\n  \"DESA_EMISION_PGA_NOMBRE\": \"MIAQA COLUCCI RIVALDI\",\n  \"DESA_EMISION_PGA_MODELO\": \"X\",\n  \"DESA_EMISION_PGA_TIPO_ENVIO\": \"\",\n  \"DESA_EMISION_PGA_CELULAR\": \"\",\n  \"DESA_EMISION_PGA_CORR_SEG_DES\": \"\",\n  \"DESA_EMISION_PGA_NOMBRES\": \"MIAQA\",\n  \"DESA_EMISION_PGA_HORA_EMISION\": \"\",\n  \"DESA_EMISION_PGA_CANAL_AGENTE\": \"\",\n  \"DESA_EMISION_PGA_CORREDOR_SEGUROS\": \"\",\n  \"DESA_EMISION_PGA_PESOCORREO\": \"\",\n  \"DESA_EMISION_PGA_APEPATASEG\": \"COLUCCI\",\n  \"DESA_EMISION_PGA_COMU_CORR\": \"\",\n  \"DESA_EMISION_PGA_EMAIL\": \"j.quezada.vergaray@accenture.com\",\n  \"DESA_EMISION_PGA_NOMAPEAGTE\": \"S/I LIMA 1  \",\n  \"DESA_EMISION_PGA_FECRECEPCLI\": \"\",\n  \"DESA_EMISION_PGA_APEMATASEG\": \"RIVALDI\",\n  \"DESA_EMISION_PGA_EMAILASEG\": \"j.quezada.vergaray@accenture.com\",\n  \"DESA_EMISION_PGA_FECENVIOCLI\": \"\",\n  \"DESA_EMISION_PGA_NOMASEG\": \"MIAQA\",\n  \"DESA_EMISION_PGA_APELLIDOS\": \"COLUCCI RIVALDI\",\n  \"DESA_EMISION_PGA_CODPRODSBS\": \"AE0446420003\",\n  \"DESA_EMISION_PGA_FORMACOMRCL\": \"4\",\n  \"DESA_EMISION_PGA_CORR_SEG\": \"\",\n  \"DESA_EMISION_PGA_CODRIECONTAB\": \"64\",\n  \"DESA_EMISION_PGA_NUMASEG\": \"1\",\n  \"DESA_EMISION_PGA_NUMDOCIDASEG\": \"10000009\",\n  \"DESA_EMISION_PGA_EMAILINTER\": \"X\",\n  \"DESA_EMISION_PGA_NOMPLANT\": \"Auto Modular END\",\n  \"DESA_EMISION_PGA_CODPROD\": \"MSLD\",\n  \"DESA_EMISION_PGA_DIRECCIONES\": \"\",\n  \"DESA_EMISION_PGA_TLFNOASEG\": \"909088556\",\n  \"DESA_EMISION_PGA_NUMASIENTOS\": \"\",\n  \"DESA_EMISION_PGA_ADJUNTO_3\": \"\",\n  \"DESA_EMISION_PGA_ADJUNTO_1\": \"s3://WS/2019/7/6a3140405d7e270048c5821274daf211\",\n  \"DESA_EMISION_PGA_TRANSAC\": \"Endoso\",\n  \"DESA_EMISION_PGA_ADJUNTO_2\": \"\",\n  \"DESA_EMISION_PGA_EMAILASESOR\": \"X\",\n  \"DESA_EMISION_PGA_NOMAPEVEN\": \"OSCAR CHAVEZ SANCHEZ\",\n  \"DESA_EMISION_PGA_TIPODOCIDASEG\": \"DNI\",\n  \"DESA_EMISION_PGA_CONSENTIMIENTO\": \"1\",\n  \"DESA_EMISION_PGA_NOMBRE_PRODUCTO\": \"AUTOEnlatado\",\n  \"DESA_EMISION_PGA_FECHA_EMISION\": \"2031-10-11 00:00:00.0\",\n  \"DESA_EMISION_PGA_NUMPOL\": \"4916122\",\n  \"DESA_EMISION_PGA_NUMREG\": \"10040600\",\n  \"DESA_EMISION_PGA_CODORGNDOC\": \"GW\",\n  \"DESA_EMISION_PGA_STSRECEPT\": \"\",\n  \"DESA_EMISION_PGA_DESCMOTRZDO\": \"\",\n  \"DESA_EMISION_PGA_NUMTRANSAC\": \"17077977\",\n  \"DESA_EMISION_PGA_RUTADOC\": \"POL_4916122_EMISION_17077977_AccountHolder\",\n  \"DESA_EMISION_PGA_FECFINCONTROL\": \"\",\n  \"DESA_EMISION_PGA_COBERTURAS_SERVICIOS\": \"\",\n  \"DESA_EMISION_PGA_INSPECT_GPS_BODY\": \"\",\n  \"DESA_EMISION_PGA_ANIO_VEHICULO\": \"\",\n  \"DESA_EMISION_PGA_INSPECT_GPS_FOOTNOTES\": \"\",\n  \"DESA_EMISION_PGA_AFILIACION_AUTO_DEBITO\": \"\"\n}",
+							"type": "text"
+						},
+						{
+							"key": "xml",
+							"type": "file",
+							"src": "/home/inetum/OneDrive/Projects/BCP-Bana/data-producer-document/books.xml"
+						},
+						{
+							"key": "",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://apimgmt-pacificodesa.azure-api.net/ne-genera-link-dana-pga/soporte-ti/v1/conversation",
+					"protocol": "https",
+					"host": [
+						"apimgmt-pacificodesa",
+						"azure-api",
+						"net"
+					],
+					"path": [
+						"ne-genera-link-dana-pga",
+						"soporte-ti",
+						"v1",
+						"conversation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Producer confirmar documento",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "usuario@empresa",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "cltId",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "idTrx",
+						"value": "minim",
+						"type": "text"
+					},
+					{
+						"key": "nombreAplicacion",
+						"value": "minim",
+						"type": "text"
+					},
+					{
+						"key": "procesoNegocio",
+						"value": "minim",
+						"type": "text"
+					},
+					{
+						"key": "usuarioAplicacion",
+						"value": "minim",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"header\": {\n    \"codigoRpta\": \"1\",\n    \"descripconrespuesta\": \"GeneracionExitosa\"\n  },\n  \"PRE_EMISION_PGA_TIPODOCIDASEG\": \"DNI\",\n  \"PRE_EMISION_PGA_NUMDOCIDASEG\": \"9354455\",\n  \"PRE_EMISION_PGA_TRANSAC\": \"Endoso\",\n  \"PRE_EMISION_PGA_NUMTRANSAC\": \"80563215\",\n  \"PRE_EMISION_PGA_EMAIL\": \"HARDY2060@GMAIL.COM\",\n  \"PRE_EMISION_PGA_NUMREG\": \"1724052\",\n  \"TipoError\": \"XML/Mall\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9091/ms-ne-producer-confirmar-documento-dana-pga/v1/confirma",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"ms-ne-producer-confirmar-documento-dana-pga",
+						"v1",
+						"confirma"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
